@@ -7,3 +7,4 @@ export SG_SSL_VER=${SG_SSL_VER:-2.4.4.19}
 export TMP_DIR=${TMP_DIR:-/tmp}
 export ES_HOME=${ES_HOME:-$TMP_DIR/elasticsearch}
 export ES_CONF=${ES_CONF:-./tests/conf}
+export PROMETHEUS_EXPORTER_VER=${PROMETHEUS_EXPORTER_VER:-2.4.4.0}

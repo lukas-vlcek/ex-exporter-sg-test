@@ -79,6 +79,10 @@ if [ "${SG_SETUP_ONLY:-}" = true ] ; then
 fi
 
 # ----------------------------------------------
+# Install Prometheus exporter plugin
+./tests/setup/prometheus-exporter-init.sh
+
+# ----------------------------------------------
 # Start elasticsearch
 ${ES_HOME}/bin/elasticsearch -d --security.manager.enabled=false --path.conf=${ES_CONF}/
 sleep 15
