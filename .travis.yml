@@ -22,7 +22,7 @@ install:
   - chmod u+x ./tests/setup/sg_init.sh
   - ./tests/setup/sg_init.sh
   # Install and setup Prometheus exporter plugin
-  - chmod u+x ./tests/setup/prometheus-exporter.sh
+  - chmod u+x ./tests/setup/prometheus-exporter-init.sh
   - ./tests/setup/prometheus-exporter-init.sh
   # Make sure test script is executable
   - chmod u+x ./tests/test.sh
