@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-source ./env_init.sh
+source env_init.sh
 
 echo "================================================="
 echo " TODO: Setup elasticsearch-prometheus-exporter"
