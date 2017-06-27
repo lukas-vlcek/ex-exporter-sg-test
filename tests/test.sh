@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source setup/env_init.sh
+source ./tests/setup/env_init.sh
 
 echo "================================================="
 echo " Testing script"

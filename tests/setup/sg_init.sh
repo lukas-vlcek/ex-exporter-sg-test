@@ -11,7 +11,7 @@ set -euxo pipefail
 # want to tweak them accordingly if testing locally.
 # ----------------------------------------------
 
-source env_init.sh
+source ./tests/setup/env_init.sh
 
 echo "================================================="
 echo " Setup Search Guard plugins"
